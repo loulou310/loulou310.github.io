@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+table {
+    margin:auto;
+    width: 60%;
+    height: 10vh;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}
+
+td {
+    margin: auto;
+    width: 33%;
+}
