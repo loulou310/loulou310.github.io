@@ -1,38 +1,35 @@
-#TODO CSS plus beau
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Jean-Louis Emeraud">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
+    <link href="../../style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Page Github de Jean-Louis Emeraud - Acceuil</title>
+    <title>Page Github de Jean-Louis Emeraud - Convertisseur</title>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <!-- Start of the navbar -->
     <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Acceuil</a>
+          <a class="nav-link" href="../../index.html">Acceuil</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Projets personnels</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="projets/bot.html">Bot discord</a></li>
-            <li><a class="dropdown-item" href="projets/page-github.html">Page Github</a></li>
+            <li><a class="dropdown-item" href="../bot.html">Bot discord</a></li>
+            <li><a class="dropdown-item" href="../page-github.html">Page Github</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Projets réalisés en NSI</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="projets/converter/presentation.html">Convertisseur base 2, 10 et 16</a></li>
+              <li><a class="dropdown-item active" href="projets/converter/presentation.html">Convertisseur base 2, 10 et 16</a></li>
             </ul>
         </li>
-      </ul>
+    </ul>
     <!-- End of the navbar -->
-    <h1 class="container-fluid p-5 bg-primary text-white">Acceuil</h1>
-    <p>Bienvenue sur ma page Github. Ici, vous pouvez constulter les différents projets que j'ai réalisé que ce soit personellement, ou en cours de NSI</p>
-    <p>Vous pouvez naviguer dans ce site grâce a la barre de navigation en haut de la page</p>
-  </body>
-</html>  
+    <h1 class="container-fluid p-5 bg-primary text-white">Convertisseur base 2, 10 et 16</h1>
+    <p>Dans le cadre d'un projet noté, il m'a été demandé de créer un convertisseur depuis et vers les bases 2, 10 et 16. Il m'a été fourni un fichier python avec des fonction de convertion, a traduire en JavaScript.</p>
+    <button class="btn btn-primary" onclick="window.location.href='index.html'">Y accéder</button>
